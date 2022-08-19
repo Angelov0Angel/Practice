@@ -36,6 +36,7 @@ nav{
 
 main{
     background-color: lightgray;
+    min-height: 90vh;
 }
 
 #title {
@@ -68,6 +69,7 @@ main{
 .parent a{
     text-decoration: none;
     color: black;
+    
 }
 
 .parent .mycard{
@@ -159,6 +161,60 @@ main{
     margin-bottom: 4vh;
 }
 /*----------------------------FOOTER START*----------------------------*/
+
+/*----------------------------MODAL START----------------------------*/
+
+.myModal{
+    width:50%; 
+    min-height: 60vh;
+    position: fixed;
+    top: 1vh;
+    left: 25%;
+    background-color: orange;
+    border-radius: 40px 20px 40px 20px;
+    display: none;
+
+}
+
+.myModal img{
+    width: 100%;
+}
+
+.myModal h1{
+    text-align: center;
+    margin: 0.5em, 0;
+    
+}
+
+.myModal span{
+    display: inline-block;
+    margin: 0.5em, 10%;
+    color:rgb(170, 48, 17) ;
+}
+
+.myModal p{
+    text-align: center;
+    width: 98%;
+    margin: 0.5em auto;
+}
+
+.myModal button {
+    display: block;
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-color: rgb(92, 168, 194);
+    background-color: transparent;
+    margin: 1em auto;
+    text-decoration: none;
+}
+.myModal button:hover {
+    background-color: rgb(92, 168, 194);
+    color: white;
+    cursor: pointer;
+}
+
+/*----------------------------MODAL END----------------------------*/
 
 
 /*----------------------------TABLET VIEW*----------------------------*/
